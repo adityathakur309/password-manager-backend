@@ -11,7 +11,6 @@ const accountSchema = Schema({
         required:true,
         minLength:3,
         maxLength:80,
-        unique:true,
     },
     email:{
         type:String,

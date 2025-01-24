@@ -20,11 +20,12 @@ const userSchema = Schema({
         required:true,
         minLength:6,
     },
-    accounts:[
+    accounts: [
         {
-            type:Schema.Types.ObjectId, ref:"accounts"
+            type: Schema.Types.ObjectId,
+            ref: "accounts"
         }
-    ]
+    ],
 })
 
 // end 
